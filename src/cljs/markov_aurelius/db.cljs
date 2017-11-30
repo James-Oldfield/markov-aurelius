@@ -1,7 +1,10 @@
 (ns markov-aurelius.db)
 
 (def default-db
-  {:seeds #{"From"
-            "To"
-            "Thou"}
+  {:seeds #{"From my"
+            "To be"
+            "All that"
+            "It is"
+            "Be like"
+            "Thou art"}
    :sample ""})
