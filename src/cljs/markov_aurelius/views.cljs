@@ -12,6 +12,8 @@
     (fn []
       [:div {:class "container"}
        [:h1 "Markov Aurelius"]
+       [:p "Markov Chain built from Marcus Aurelius' "
+        [:em "'Meditations'"]]
        [:hr]
        [sample-button]
        (if (< 0 (count @sample))
