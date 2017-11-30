@@ -1,5 +1,7 @@
 # markov-aurelius
 
+[http://igor.gold.ac.uk/~joldf001/markov-aurelius/](http://igor.gold.ac.uk/~joldf001/markov-aurelius/)
+
 Markov chain modeling the distributions of words in Marcus Aurelius' [Meditations](http://classics.mit.edu/Antoninus/meditations.html).
 
 [re-frame](https://github.com/Day8/re-frame) is used for the webapp.
