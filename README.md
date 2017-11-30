@@ -1,6 +1,19 @@
 # markov-aurelius
 
-A [re-frame](https://github.com/Day8/re-frame) application designed to ... well, that part is up to you.
+Markov chain modeling the distributions of words in Marcus Aurelius' [Meditations](http://classics.mit.edu/Antoninus/meditations.html).
+
+[re-frame](https://github.com/Day8/re-frame) is used for the webapp.
+
+Data isn't checked in, because of the file size.
+
+Create a `data.cljs` at `./src/cljs/markov_aurelius/data.cljs` with contents:
+
+```clojure
+(ns markov-aurelius.data)
+
+(def data
+  "blah blah [...] blah")
+```
 
 ## Development Mode
 
